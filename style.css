@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+body {
+	text-align: center;
+	background-image: url(https://source.unsplash.com/random);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container {
+	width: 40%;
+	/*CENTERS DIV IN BODY*/
+	position: absolute;
+	left: 33%;
+	top: 10%;
+	height: 50vh;
+	overflow: scroll;
+}
+
+#todoContainer {
+	margin: 0 auto;
+	text-align: center;
+	opacity: 0.5;
+	/*border: black solid 5px;*/
+	max-height: inherit;
+}
+
+input[type="checkbox"]{
+	border: black 1px solid;
+	box-shadow: 0 0 0 3px hotpink;
+}
+
+input[type="text"]{
+	border: black 1px solid;
+	border-radius: 5px;
+}
+
+input[type="text"]:focus {
+	background-color: pink;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	background-color: green;
+	border-radius: 5px;
+}
+
+p {
+	width: 80%;
+}
+
+li {
+	display: flex;
+	margin: 1em;
+	padding: 0.10em;
+	justify-content:space-around;
+	align-items:center;
+	/*border: black solid 5px;*/
+}
+
+ul {
+	list-style-type: none;
+	/*removes space from bullet point*/
+	padding: 0;
+}
+
+.done {
+	text-decoration: line-through;
+
+}
+
+li:hover {
+	font-weight: bold;
+}
+
+form {
+	margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+    
+}
